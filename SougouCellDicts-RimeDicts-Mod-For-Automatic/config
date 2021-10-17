@@ -1,0 +1,103 @@
+#!/bin/bash
+DICT_IDS=(
+  "15117"
+  "20656"
+  "75228"
+  "84695"
+  "80764"
+  "22409"
+  "15122"
+  "36423"
+  "79354"
+  "40291"
+  "15097"
+  "43673"
+  "1365"
+  "4"
+  "16485"
+  "15201"
+  "76640"
+  "73918"
+  "15182"
+  "71742"
+  "15206"
+  "78904"
+  "22394"
+  "2"
+  "1"
+  "15129"
+)
+DICT_NAMES=(
+  "计算机词汇大全【官方推荐】"
+  "日剧、动漫大全【官方推荐】"
+  "开发大神专用词库【官方推荐】"
+  "网络科技"
+  "Java【官方推荐】"
+  "电子商务专用词库【官方推荐】"
+  "电子词汇大全【官方推荐】"
+  "程序猿词库"
+  "叠词【官方推荐】"
+  "最常用聊天短语"
+  "成语俗语【官方推荐】"
+  "快递公司名称"
+  "银行大全"
+  "网络流行新词【官方推荐】"
+  "服饰词汇"
+  "饮食大全【官方推荐】"
+  "八大菜系【官方推荐】"
+  "王者荣耀【官方推荐】"
+  "家居装修词汇大全【官方推荐】"
+  "常见花卉名称【官方推荐】"
+  "动物词汇大全【官方推荐】"
+  "数学词汇大全【一旦拥有别无所求】"
+  "李白诗集【官方推荐】"
+  "古诗词名句【官方推荐】"
+  "唐诗300首【官方推荐】"
+  "心理学词汇大全【官方推荐】"
+)
+DICT_SHORTS=(
+  "computer"
+  "anime"
+  "developer"
+  "network"
+  "java"
+  "electron-business"
+  "electron"
+  "programer"
+  "doubleDict"
+  "mostchat"
+  "chengyu"
+  "kuaidi"
+  "bank"
+  "populatedict"
+  "dress"
+  "yinshi"
+  "caixi"
+  "wangzhery"
+  "jiaju"
+  "flowers"
+  "animalls"
+  "math"
+  "libai"
+  "poetry"
+  "tangshi"
+  "psychics"
+)
+DICT_PREFIX="luna_pinyin"
+DICT_MASTER_NAME="awesome"
+#自定义配置：
+GNU_SED="/usr/bin/sed" # 务必使用`gnu-sed`，「Mac用户」需用`brew`安装
+
+##配置名称
+USER_NAME="$(whoami)" # 「Rime使用者」用户名
+SUB_DIR="luna_pinyin_cells" # 「放置`Rime细胞词库`的文件夹」名称
+EXT_NAME="luna_pinyin.extended.dict.yaml" #「扩展词典」名称
+DICT_PREFIX="luna_pinyin" # 这个将作为「所有词典的名称」前缀，写在词典的内容里
+FILE_PREFIX="luna_pinyin" # 这个将作为「所有词典的文件名」前缀，以上两者可保持一样
+
+# 生成文件路径，『Mac用户』不能更改！
+RIME_DIR="$HOME/.local/share/fcitx5/rime" # 「Rime 文件夹」路径
+EXT_PATH="$RIME_DIR/$EXT_NAME" # 「扩展词典路径」, 在对应`*.custome.yaml`中添加好的`"translator/dictionary"`字段
+RIME_PATH="$RIME_DIR/" # 「放置`Rime细胞词库`的文件夹」路径
+COPY="$HOME/.local/share/fcitx5/rime"
+HOOK_AFTER="rime_deployer --build $COPY /usr/share/rime-data"
