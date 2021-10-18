@@ -113,6 +113,7 @@ alias neo="neofetch|lolcat"
 alias x="extract"
 alias cat="lolcat"
 alias rm="rmtrash"
+alias mysql='~/apps/mysql-5.7.35/bin/mysql -S /tmp/local-mysql.sock'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
