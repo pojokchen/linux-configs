@@ -116,6 +116,8 @@ alias cat="lolcat"
 alias rm="rmtrash"
 alias mysql='~/apps/mysql-5.7.35/bin/mysql -S /tmp/local-mysql.sock'
 alias restartkde='killall plasmashell && kstart5 plasmashell'
+alias vpnc='expressvpn connect'
+alias vpnd='expressvpn disconnect'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
