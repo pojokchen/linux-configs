@@ -113,7 +113,7 @@ alias grep="grep --color=auto"
 alias neo="neofetch|lolcat"
 alias x="extract"
 alias cat="lolcat"
-alias rm="rmtrash"
+alias rm="rmtrash -v"
 alias mysql='~/apps/mysql-5.7.35/bin/mysql -S /tmp/local-mysql.sock'
 alias restartkde='killall plasmashell && kstart5 plasmashell'
 alias vpnc='expressvpn connect'
