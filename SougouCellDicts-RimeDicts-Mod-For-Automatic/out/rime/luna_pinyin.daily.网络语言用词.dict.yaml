@@ -1,8 +1,0 @@
----
-name: luna_pinyin.daily.网络语言用词
-version: "2021.10.28"
-sort: by_weight
-use_preset_vocabulary: true
-...
-
-
