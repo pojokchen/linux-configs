@@ -3,6 +3,11 @@ CELL_ID=`basename ${BASH_SOURCE[0]}`
 DICT_CELL=("${DICT_CELL[@]}" $CELL_ID)
 DICT=(
 "网络流行新词【官方推荐】/4"
+"网络流行语/17089"
+"网络语言用词/48482"
+"推荐实用流行新词/36787"
+"新词集锦【官方推荐】/67846"
+"中外互译/59927"
 
 )
 eval "${CELL_ID}${DICT_CELL_SUFFIX}=(${DICT[@]})"

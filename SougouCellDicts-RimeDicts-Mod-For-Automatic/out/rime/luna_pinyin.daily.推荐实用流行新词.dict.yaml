@@ -1,0 +1,13 @@
+---
+name: luna_pinyin.daily.推荐实用流行新词
+version: "2021.10.28"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+法文和中文
+韩文和中文
+英文和中文
+中文和法文
+中文和韩文
+中文和英文
