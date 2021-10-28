@@ -523,12 +523,14 @@ alias cls="clear"
 alias grep="grep --color=auto"
 #显示系统信息(在使用该别名前需要先下载neofetch和lolcat)
 alias neo="neofetch|lolcat"
-#解压命令
+#解压命令，需要其他解压缩命令支持,例如unzip、unrar、tar等
 alias x="extract"
 #颜色显示cat命令
 alias cat="lolcat"
 #配置终端下删除回收站(需要先在aur中下载rmtrash)
 alias rm="rmtrash"
+#配置ls的别名logo-ls，可以在终端中显示图标信息(需现在aur中下载logo-ls)
+alias ls='logo-ls'
 ```
 
 #### 3.8.8其他oh-my-zsh配置
