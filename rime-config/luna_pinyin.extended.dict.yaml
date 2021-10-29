@@ -32,5 +32,52 @@ import_tables:
   - luna_pinyin.basis
   - luna_pinyin.sougou
   - luna_pinyin.history
+  - luna_pinyin.computer
+  - luna_pinyin.anime
+  - luna_pinyin.developer
+  - luna_pinyin.network
+  - luna_pinyin.java
+  - luna_pinyin.electron-business
+  - luna_pinyin.electron
+  - luna_pinyin.programer
+  - luna_pinyin.doubleDict
+  - luna_pinyin.mostchat
+  - luna_pinyin.chengyu
+  - luna_pinyin.kuaidi
+  - luna_pinyin.bank
+  - luna_pinyin.populatedict
+  - luna_pinyin.dress
+  - luna_pinyin.yinshi
+  - luna_pinyin.caixi
+  - luna_pinyin.wangzhery
+  - luna_pinyin.jiaju
+  - luna_pinyin.flowers
+  - luna_pinyin.animalls
+  - luna_pinyin.math
+  - luna_pinyin.libai
+  - luna_pinyin.poetry
+  - luna_pinyin.tangshi
+  - luna_pinyin.psychics
+  - luna_pinyin.products
+  - luna_pinyin.sogoustandar
+  - luna_pinyin.sogoustandarbig
+  - luna_pinyin.sogou
+  - luna_pinyin.sogou2
+  - luna_pinyin.legal1
+  - luna_pinyin.numberdate
+  - luna_pinyin.stock
+  - luna_pinyin.legal2
+  - luna_pinyin.military
+  - luna_pinyin.trial
+  - luna_pinyin.phone
+  - luna_pinyin.networksecure
+  - luna_pinyin.weber
+  - luna_pinyin.net
+  - luna_pinyin.computer2
+  - luna_pinyin.buzzwords
+  - luna_pinyin.netlanguage
+  - luna_pinyin.buzzwords2
+  - luna_pinyin.newBuzzwords
+  - luna_pinyin.chinaandother
 ...
 
