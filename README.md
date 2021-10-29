@@ -121,7 +121,9 @@ fc-cache -f
 
 ### 3.6安装中文输入法
 
-​	Linux下的中文输入法主要通过输入法框架来实现，成熟的框架有IBus、fcitx、fcitx5和scim(已停止维护)，其中fcitx和fcitx5不兼容，故需要二选一使用。
+#### 3.6.1安装
+
+​	Linux下的中文输入法主要通过输入法框架来实现，成熟的框架有IBus、fcitx、fcitx5、scim(已停止维护)，其中fcitx和fcitx5不兼容，故需要二选一使用。
 
 ​	在这里使用fcitx5输入法框架，安装如下软件包：
 
@@ -153,6 +155,23 @@ SDL_IM_MODULE DEFAULT=fcitx
 - ​	在wm环境中，需要添加fcitx5程序到对应的autostart脚本中进行自启动
 
 添加完成后，重启系统使输入法生效。
+
+#### 3.6.2安装皮肤
+
+​	fcitx5内置了只有一种皮肤，很丑，可以在[Github](https://github.com/sxqsfun/fcitx5-sogou-themes)上探索更多的皮肤然后下载下来，将其复制到`~/.local/share/fcitx5/themes`目录下或者到`/usr/share/fciyx5/themes`目录下，然后在fcitx的配置界面中，选择配置附加组件，然后选择经典用户界面，选择喜爱的主题即可。
+
+​	**注意：主题必须是适用于fcitx格式的主题。**
+
+​	或者可以在 aur中进行下载，如下：
+
+```shell
+#安装win10 2004风格的浅色皮肤
+pamac build fcitx5-bing-input-color
+#一款nord主题的暗色风格皮肤(也提供了浅色风格的皮肤)
+pamac build fcitx5-nord
+```
+
+​	该[Github](https://github.com/thep0y/fcitx5-themes)仓库下也有一些皮肤，很不错。
 
 ### 3.7配置rime输入法
 
@@ -282,12 +301,6 @@ import_tables:
 **注意，词库配置文件要与词库文件处于统一目录。**
 
 除了上述方式，还可以通过自动的方式更新搜狗词库文件，进行配置。
-
-#### 3.7.3配置输入法皮肤
-
-​	fcitx5内置了只有一种皮肤，很丑，aur中也有几种皮肤包，但是不是很好，可以在[Github](https://github.com/sxqsfun/fcitx5-sogou-themes)上探索更多的皮肤然后下载下来，将其复制到`~/.local/share/fcitx5/themes`目录下或者到`/usr/share/fciyx5/themes`目录下，然后在fcitx的配置界面中，选择配置附加组件，然后选择经典用户界面，选择喜爱的主题即可。
-
-​	**注意：主题必须是适用于fcitx格式的主题。**
 
 ### 3.8 zsh及oh-my-zsh
 
