@@ -119,6 +119,8 @@ alias restartkde='killall plasmashell && kstart5 plasmashell'
 alias vpnc='expressvpn connect'
 alias vpnd='expressvpn disconnect'
 alias ls='logo-ls'
+alias ssh='ssh -oHostKeyAlgorithms=+ssh-dss'
+alias scp='scp -oHostKeyAlgorithms=+ssh-dss'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

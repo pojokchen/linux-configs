@@ -12,5 +12,26 @@ use_preset_vocabulary: true
 import_tables:
   - luna_pinyin
   - luna_pinyin.cn_en
+  - luna_pinyin.extra_hanzi
+  - luna_pinyin.sgmain
+  - luna_pinyin.sgplus
+  - luna_pinyin.sgplus2
+  - luna_pinyin.chat
+  - luna_pinyin.net
+  - luna_pinyin.user
+  - luna_pinyin.english
+  - luna_pinyin.biaoqing
+  - luna_pinyin.website
+  - luna_pinyin.game
+  - luna_pinyin.anime
+  - luna_pinyin.classical
+  - luna_pinyin.poetry
+  - luna_pinyin.computer
+  - luna_pinyin.hanyu
+  - luna_pinyin.practical
+  - luna_pinyin.basis
+  - luna_pinyin.idiom
+  - luna_pinyin.sougou
+  - luna_pinyin.history
 ...
 
