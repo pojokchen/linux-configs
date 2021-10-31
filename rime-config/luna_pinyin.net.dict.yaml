@@ -1,6 +1,6 @@
 ---
 name: luna_pinyin.net
-version: "2021.10.29"
+version: "2021.10.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...

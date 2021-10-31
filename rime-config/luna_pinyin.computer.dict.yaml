@@ -1,9 +1,10 @@
 ---
 name: luna_pinyin.computer
-version: "2021.10.29"
+version: "2021.10.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...
+
 阿姆达尔定律
 阿帕网
 埃尔布朗基

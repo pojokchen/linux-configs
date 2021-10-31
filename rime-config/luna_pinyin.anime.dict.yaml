@@ -1,6 +1,6 @@
 ---
 name: luna_pinyin.anime
-version: "2021.10.29"
+version: "2021.10.30"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -15549,4 +15549,3 @@ use_preset_vocabulary: true
 佐佐木智美
 佐佐木渚沙
 佐佐木渚纱
-
