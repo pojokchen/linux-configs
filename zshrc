@@ -121,6 +121,9 @@ alias vpnd='expressvpn disconnect'
 alias ls='logo-ls'
 alias ssh='ssh -oHostKeyAlgorithms=+ssh-dss'
 alias scp='scp -oHostKeyAlgorithms=+ssh-dss'
+alias pacs='pamac search -a'
+alias pacb='pamac build'
+alias pacu='pamac upgrade'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
