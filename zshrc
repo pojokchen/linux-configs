@@ -124,6 +124,7 @@ alias scp='scp -oHostKeyAlgorithms=+ssh-dss'
 alias pacs='pamac search -a'
 alias pacb='pamac build'
 alias pacu='pamac upgrade'
+alias filez='nohup filezilla > /dev/null &'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

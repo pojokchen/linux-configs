@@ -11,6 +11,13 @@ patch:
     caption: 〔方案选择〕
     hotkeys: 
       - Control+grave
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+      - zh_hant
+      - zh_hans
   menu/page_size: 8
   ascii_composer:
     switch_key:
