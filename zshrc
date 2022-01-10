@@ -1,4 +1,4 @@
-#fortune | cowsay | lolcat
+fortune | cowsay | lolcat
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -119,12 +119,15 @@ alias restartkde='killall plasmashell && kstart5 plasmashell'
 alias vpnc='expressvpn connect'
 alias vpnd='expressvpn disconnect'
 alias ls='logo-ls'
+alias bls='/bin/ls -l'
 alias ssh='ssh -oHostKeyAlgorithms=+ssh-dss'
 alias scp='scp -oHostKeyAlgorithms=+ssh-dss'
 alias pacs='pamac search -a'
 alias pacb='pamac build'
 alias pacu='pamac upgrade'
 alias filez='nohup filezilla > /dev/null &'
+alias ping="gping"
+#alias fzf="fzf --preview '[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || highlight -O ansi -l {} || coderay {} || rougify {} || cat {}) 2> /dev/null | head -500'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
