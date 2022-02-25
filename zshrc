@@ -78,7 +78,7 @@ ZSH_CUSTOM=$ZSH/custom
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo autojump cp copydir copyfile encode64 extract)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting sudo autojump cp copypath copyfile encode64 extract)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -127,6 +127,7 @@ alias pacb='pamac build'
 alias pacu='pamac upgrade'
 alias filez='nohup filezilla > /dev/null &'
 alias ping="gping"
+alias top="htop"
 #alias fzf="fzf --preview '[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || highlight -O ansi -l {} || coderay {} || rougify {} || cat {}) 2> /dev/null | head -500'"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
