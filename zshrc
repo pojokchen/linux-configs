@@ -7,7 +7,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+source /etc/profile
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/chenyz/.oh-my-zsh"
@@ -114,7 +115,7 @@ alias neo="neofetch|lolcat"
 alias x="extract"
 alias cat="lolcat"
 alias rm="rmtrash -v"
-alias mysql='~/apps/mysql-5.7.35/bin/mysql -S /tmp/local-mysql.sock'
+alias mysql='~/apps/mysql-5.7.37/bin/mysql'
 alias restartkde='killall plasmashell && kstart5 plasmashell'
 alias vpnc='expressvpn connect'
 alias vpnd='expressvpn disconnect'
@@ -125,11 +126,9 @@ alias scp='scp -oHostKeyAlgorithms=+ssh-dss'
 alias pacs='pamac search -a'
 alias pacb='pamac build'
 alias pacu='pamac upgrade'
-alias filez='nohup filezilla > /dev/null &'
 alias ping="gping"
 alias top="htop"
-#alias fzf="fzf --preview '[[ $(file --mime {}) =~ binary ]] && echo {} is a binary file || (bat --style=numbers --color=always {} || highlight -O ansi -l {} || coderay {} || rougify {} || cat {}) 2> /dev/null | head -500'"
-
+alias fzf="/home/chenyz/configs/shells/fzf_preview.sh"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
