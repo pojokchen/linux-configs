@@ -129,6 +129,12 @@ alias pacu='pamac upgrade'
 alias ping="gping"
 alias top="htop"
 alias fzf="/home/chenyz/configs/shells/fzf_preview.sh"
+alias df=duf
+alias du=ncdu
+
+
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
