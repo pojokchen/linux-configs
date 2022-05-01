@@ -1,6 +1,6 @@
 #! /bin/sh
-export IDEA_JDK=~/apps/jbr
-export DATAGRIP_JDK=~/apps/jbr
-export GOLAND_JDK=~/apps/jbr
-export PYCHARM_JDK=~/apps/jbr
-export WEBIDE_JDK=~/apps/jbr
+export IDEA_JDK=/home/chenyz/apps/jbr
+export DATAGRIP_JDK=/home/chenyz/apps/jbr
+export GOLAND_JDK=/home/chenyz/apps/jbr
+export PYCHARM_JDK=/home/chenyz/apps/jbr
+export WEBIDE_JDK=/home/chenyz/apps/jbr

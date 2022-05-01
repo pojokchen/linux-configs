@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=MoeDark
-Font=Hasklig Semibold,12,-1,5,63,0,0,0,0,0,Regular
+Font=Hack,12,-1,5,50,0,0,0,0,0
 UseFontLineChararacters=true
 
 [General]

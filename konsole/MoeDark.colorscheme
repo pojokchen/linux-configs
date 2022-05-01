@@ -1,11 +1,11 @@
 [Background]
-Color=38,41,46
+Color=27,33,40
 
 [BackgroundFaint]
-Color=46,50,56
+Color=27,33,40
 
 [BackgroundIntense]
-Color=32,34,39
+Color=27,33,40
 
 [Color0]
 Color=43,43,43
@@ -89,8 +89,11 @@ Color=135,171,169
 Color=168,217,218
 
 [General]
-Blur=true
+Anchor=0.5,0.5
+Blur=false
 ColorRandomization=false
 Description=Moe-Dark
-Opacity=0.55
+FillStyle=Tile
+Opacity=0.91
 Wallpaper=
+WallpaperOpacity=1
