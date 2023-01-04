@@ -131,7 +131,7 @@ alias top="htop"
 alias fzf="/home/chenyz/configs/shells/fzf_preview.sh"
 alias df=duf
 alias du=ncdu
-
+alias top=btm
 
 
 
